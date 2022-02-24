@@ -1,79 +1,44 @@
 {
-  "csrf": {
-    "error": "form tampered with"
-  },
-  "generals": {
-    "forgot-password": "Forgot Password?",
-    "not-found": "not found",
-    "sign-in-google": "Sign in with Google"
-  },
-  "resource": {
-    "views": {
-      "auth": {
-        "forgot-password": {
-          "labels": {
-            "email": "Email"
-          },
-          "page-title": "Forgot Password",
-          "place-holders": {
-            "email": "Enter Email"
-          },
-          "submit": "submit"
-        },
-        "login": {
-          "account": "Don't have an account?",
-          "labels": {
-            "email": "Email",
-            "password": "Password"
-          },
-          "page-title": "Log in",
-          "place-holders": {
-            "email": "Enter Email",
-            "password": "Enter Password"
-          },
-          "sign-up": "sign up",
-          "submit": "Log In"
-        },
-        "register": {
-          "account": "Do you have an account?",
-          "labels": {
-            "email": "Email",
-            "password": "Password"
-          },
-          "login": "log in",
-          "page-title": "Sign up",
-          "place-holders": {
-            "email": "Enter Email",
-            "password": "Enter Password"
-          },
-          "submit": "Register"
-        },
-        "reset-password": {
-          "labels": {
-            "email": "Password"
-          },
-          "page-title": "Reset Password",
-          "place-holders": {
-            "email": "Enter Password"
-          },
-          "submit": "submit"
-        }
-      }
-    }
-  },
-  "typeScript": {
-    "app": {
-      "passport": {
-        "passport-local": {
-          "register-fail": "Register Failed",
-          "wrong": "Email or Password is wrong!"
-        }
-      }
-    }
-  },
-  "validators": {
-    "email": "email not valid",
-    "email-exist": "this email is already exist!",
-    "password": "password must be at least 8 character"
-  }
+	"resource": {
+		"views": {
+			"home": {
+				"index": {
+					"text": "This is a iRole Template for Web"
+				}
+			},
+			"auth": {
+				"login": {
+					"title": "Login",
+					"dont-have-account": "Do not have an account?",
+					"sign-up": "Sign Up",
+					"google-sign-in": "Sign in with Google",
+					"email ": ":Email",
+					"ph-email": "Enter Email",
+					"password": "Password :",
+					"ph-password": "Enter Password",
+					"login": "Login",
+					"forgot-password": "Forgot Your password?",
+					"email": "Email :"
+				},
+				"register": {
+					"title": "Sign up",
+					"do-you-have-account": "Do you have an account?",
+					"login": "Login",
+					"google-sign-in": "Sign in with Google",
+					"email": "Email :",
+					"ph-email": "Enter Email",
+					"password": "Password :",
+					"ph-password": "Enter Password",
+					"register": "Register",
+					"forgot-password": "Forgot Your password?"
+				},
+				"forgot-password": {
+					"title": "Forgot Password",
+					"email": "Email",
+					"ph-email": "please insert your Email",
+					"submit": "Submit"
+				}
+			}
+		}
+	}
 }
