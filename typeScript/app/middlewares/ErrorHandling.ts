@@ -1,6 +1,6 @@
 import Middleware from "./Middleware";
-import logger from "../helpers/logger";
 import translate from "../helpers/translate";
+import {logger} from "../helpers/logger";
 
 const config = require('config');
 

@@ -40,5 +40,20 @@
 				}
 			}
 		}
+	},
+	"app": {
+		"validators": {
+			"public": {
+				"auth": {
+					"RegisterValidator": {
+						"email": "email not valid",
+						"password": "password must be at least 8"
+					},
+					"ForgotPasswordValidator": {
+						"email": "email not valid"
+					}
+				}
+			}
+		}
 	}
 }
