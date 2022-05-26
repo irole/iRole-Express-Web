@@ -3,6 +3,8 @@ services:
   app:
     container_name: web-template
     image: irolegroup/web-express
+    environment:
+      - DatabaseUrl=mongodb://mongo:27017/iRole-Express-Web
     restart: always
     build: .
     ports:
